@@ -257,7 +257,7 @@
                 var money = $('#money').val();
                 var xfDate = $('#xfDate').val();
                 var remark = $('#remark').val();
-                if (xfType == '') {
+                if (xfType == '0') {
                     layer.msg('消费类型不能为空');
                     return;
                 } else if (money == '') {
