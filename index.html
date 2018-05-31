@@ -176,12 +176,6 @@
 
             var hasAccount = false;
             function search() {
-                var token = $('#userId').val();
-                if (token == '') {
-                    layer.msg('账本密钥不能为空');
-                    return;
-                }
-                sessionStorage.setItem('iaccount_token', token);
                 var to = dappAddress;
                 var value = "0";
                 var callFunction = "get";
